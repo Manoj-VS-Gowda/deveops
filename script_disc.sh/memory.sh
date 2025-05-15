@@ -1,8 +1,0 @@
-#!/bin/bash
-df -h
-awk /used/bin/bash
-if [ $storage -eq 50 ]
-echo " storage is upto 50% " | mail -s "stroage space" -c "mail id"
-else
-echo "$storage less than 50%"
-fi
